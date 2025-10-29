@@ -1,0 +1,26 @@
+{
+    "policy_requirements": {
+        "min_length": 8,
+        "max_length": 128,
+        "require_uppercase": true,
+        "require_lowercase": true,
+        "require_numbers": true,
+        "require_special_chars": true,
+        "max_repeated_chars": 2,
+        "min_unique_chars": 6,
+        "avoid_common_patterns": true,
+        "avoid_dictionary_words": true
+    },
+    "strength_thresholds": {
+        "very_weak": 0,
+        "weak": 20,
+        "fair": 40,
+        "good": 60,
+        "strong": 80,
+        "very_strong": 100
+    },
+    "external_apis": {
+        "haveibeenpwned": "https://api.pwnedpasswords.com/range/",
+        "common_passwords_url": "https://github.com/danielmiessler/SecLists/raw/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt"
+    }
+}

@@ -1,0 +1,7 @@
+# requirements.txt
+flask==2.3.2
+flask-cors==4.0.0
+requests==2.31.0
+bcrypt==4.0.1
+zxcvbn==4.4.28
+pyyaml==6.0.1
